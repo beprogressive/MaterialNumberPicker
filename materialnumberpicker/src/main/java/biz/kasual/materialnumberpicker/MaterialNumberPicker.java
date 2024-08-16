@@ -21,12 +21,13 @@ import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.drawable.ColorDrawable;
-import android.support.annotation.NonNull;
 import android.text.InputFilter;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.NumberPicker;
+
+import androidx.annotation.NonNull;
 
 import java.lang.reflect.Field;
 

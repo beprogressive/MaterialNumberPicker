@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion Integer.parseInt(ANDROID_BUILD_SDK_VERSION)
-    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
+    namespace 'biz.kasual.materialnumberpickersample'
+    compileSdk 34
 
     defaultConfig {
-        applicationId "biz.kasual.materialnumberpickersample"
-        minSdkVersion 11
-        targetSdkVersion 23
+//        applicationId "biz.kasual.materialnumberpickersample"
+        minSdk 14
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
@@ -20,7 +20,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:design:23.1.0'
-    compile project(':materialnumberpicker')
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:design:23.1.0'
+    implementation project(':materialnumberpicker')
 }

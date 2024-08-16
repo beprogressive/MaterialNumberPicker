@@ -2,16 +2,18 @@ package biz.kasual.materialnumberpickersample;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.NumberPicker;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import biz.kasual.materialnumberpicker.MaterialNumberPicker;
 
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        mDefaultButton = (Button)findViewById(R.id.default_number_picker_button);
+        mDefaultButton = findViewById(R.id.default_number_picker_button);
         mSimpleButton = (Button)findViewById(R.id.simple_number_picker_button);
         mCustomButton = (Button)findViewById(R.id.custom_number_picker_button);
 
