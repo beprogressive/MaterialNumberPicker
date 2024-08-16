@@ -2,19 +2,20 @@
 
 buildscript {
     repositories {
-        jcenter()
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.5.1'
+        classpath 'com.android.tools.build:gradle:8.5.2'
     }
 }
 
+group = 'com.github.beprogressive'
+version = project.VERSION_NAME
+
 allprojects {
     repositories {
-        jcenter()
         mavenCentral()
         google()
         maven { url 'https://jitpack.io' }
