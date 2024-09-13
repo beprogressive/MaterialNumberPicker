@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package biz.kasual.materialnumberpicker;
+package com.github.beprogressive.materialnumberpicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;

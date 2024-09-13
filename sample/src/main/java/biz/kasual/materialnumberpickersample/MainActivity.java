@@ -13,9 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
+import com.github.beprogressive.materialnumberpicker.MaterialNumberPicker;
 import com.google.android.material.snackbar.Snackbar;
 
-import biz.kasual.materialnumberpicker.MaterialNumberPicker;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

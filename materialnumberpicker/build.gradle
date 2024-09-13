@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'biz.kasual.materialnumberpicker'
+    namespace 'com.github.beprogressive.materialnumberpicker'
     compileSdk 34
 
     defaultConfig {
